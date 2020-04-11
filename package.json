@@ -1,0 +1,20 @@
+{
+  "name": "yaniv-word-count",
+  "main": "./lib/yaniv-word-count",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "activationHooks": [
+    "language-javascript:grammar-used",
+    "language-coffee-script:grammar-used"
+  ],
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": "yaniv-word-count:toggle"
+  },
+  "repository": "https://github.com/nivista/word-count.git",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {}
+}

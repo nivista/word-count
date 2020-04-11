@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle yaniv-word-count",
+        "command": "yaniv-word-count:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Word Count",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "yaniv-word-count:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
