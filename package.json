@@ -1,7 +1,7 @@
 {
   "name": "yaniv-word-count",
   "main": "./lib/yaniv-word-count",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A short description of your package",
   "activationHooks": [
     "language-javascript:grammar-used",
